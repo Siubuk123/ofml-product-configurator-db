@@ -18,6 +18,7 @@ Celem projektu jest zamodelowanie warstwy pośredniej w relacyjnej bazie danych 
 
 * **Silnik bazodanowy:** Microsoft SQL Server (MS SQL Server Express)
 * **Środowisko deweloperskie:** Visual Studio Code
+* **Warstwa wejściowa:** Zestawienia produktowe w arkuszach Excel eksportowane do standaryzowanych plików `CSV (UTF-8)`.
 * **Analiza wymagań dziedzinowych:** pCon.planner (analiza modeli parametrycznych 3D/OFML pod kątem struktury atrybutów, logiki zamiany geometrii oraz generowania zestawień materiałowych BOM)
 
 ---
@@ -55,11 +56,3 @@ Tabela asocjacyjna implementująca logikę ograniczeń produkcyjnych mebla.
 * **Integralność:** Zastosowano złożony klucz główny oraz więz, co eliminuje dublowanie reguł symetrycznych `(A, B)` i `(B, A)`.
 
 ---
-
-## 4. Struktura repozytorium
-
-```text
-├── 01_schema.sql         # Skrypt DDL tworzący bazę danych, tabele i więzy integralności
-├── 02_seed_data.sql      # Dane testowe odwzorowujące rzeczywisty fotel biurowy i reguły kolizyjne
-├── 03_business_logic.sql # Zapytania walidujące konfigurację, generator SKU oraz kalkulator cen
-└── README.md             # Dokumentacja projektu
