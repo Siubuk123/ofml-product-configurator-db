@@ -1,0 +1,17 @@
+﻿option_id;features_id;option_name;sku_code;price_delta
+OPT_S_BLK;FEAT_COL;Korpus czarny;BL;0
+OPT_S_WHT;FEAT_COL;Korpus biały;WH;60
+OPT_L_NON;FEAT_LUM;Brak podparcia lędźwi;NOLUM;0
+OPT_L_ADJ;FEAT_LUM;Podparcie lędźwi ;ADJL;110
+OPT_A_NON;FEAT_ARM;Brak podłokietników;NOARM;0
+OPT_A_3D;FEAT_ARM;Podłokietniki regulowane 3D;R3D;190
+OPT_B_PLB;FEAT_BASE;Podstawa czarna z tworzywa;TS25;0
+OPT_B_ALU;FEAT_BASE;Podstawa aluminium polerowane;ALU;170
+OPT_M_CAS;FEAT_MOB;Kółka do powierzchni twardych;HARDC;0
+OPT_M_GLI;FEAT_MOB;Stopki GB do miękkich powierzchni;GLIDE;25
+OPT_C_BGR;FEAT_CONF_COL;Kolor Black grey;BGR;0
+OPT_C_BLK;FEAT_CONF_COL;Kolor Czarny ;BLK;0
+OPT_ST_T01;FEAT_CONF_SEAT;Tapicerka tkanina ;SM01;0
+OPT_ST_SK6;FEAT_CONF_SEAT;Tapicerka Skóra ;NAP6;320
+OPT_G_SFT;FEAT_CONF_GLIDE;Stopki GB do miękkich powierzchni;GBM;0
+OPT_G_HRD;FEAT_CONF_GLIDE;Stopki z filcem do parkietu;GBT;30

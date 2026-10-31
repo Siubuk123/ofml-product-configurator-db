@@ -1,0 +1,9 @@
+﻿features_id;product_id;features_name;is_mandatory
+FEAT_COL;SAHARA;Wersja kolorystyczna;1
+FEAT_LUM;SAHARA;Podparcie lędźwi;0
+FEAT_ARM;SAHARA;Podłokietniki;0
+FEAT_BASE;SAHARA;Podstawa;1
+FEAT_MOB;SAHARA;Podłoże;1
+FEAT_CONF_COL;OCEANIA;Wersja kolorystyczna;1
+FEAT_CONF_SEAT;OCEANIA;Siedzisko;1
+FEAT_CONF_GLIDE;OCEANIA;Stopki;1
