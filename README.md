@@ -56,3 +56,18 @@ Tabela asocjacyjna implementująca logikę ograniczeń produkcyjnych mebla.
 * **Integralność:** Zastosowano złożony klucz główny oraz więz, co eliminuje dublowanie reguł symetrycznych `(A, B)` i `(B, A)`.
 
 ---
+
+## 4. Struktura repozytorium
+
+```text
+├── dane/
+│   ├── Produkty.csv          # Kartoteka artykułów bazowych
+│   ├── Cechy.csv             # Cechy konfiguracyjne
+│   ├── Opcje.csv             # Dopuszczalne warianty i dopłaty
+│   └── Wykluczenia.csv       # Tabela reguł kolizyjnych
+├── 01_schema.sql             # Skrypt tworzący bazę i tabele relacyjne
+├── 02_import_csv.sql         # Import danych
+├── 03_business_logic.sql     # Widoki biznesowe, audyty spójności danych i reguły OFML
+└── README.md                 # Dokumentacja techniczna projektu
+
+---
