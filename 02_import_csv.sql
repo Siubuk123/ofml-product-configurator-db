@@ -8,7 +8,7 @@ DELETE FROM Products;
 GO
 
 BULK INSERT Products
-FROM 'C:\Users\Kuba0\Desktop\Projekty\OFML_Product\Produkty.csv'
+FROM 'C:\Users\Kuba0\Desktop\Projekty\OFML_Product\dane\Produkty.csv'
 WITH (
     FIRSTROW = 2,               -- pomijamy wiersz z nagłówkami
     FIELDTERMINATOR = ';',      -- polski Excel rozdziela kolumny średnikiem
@@ -18,7 +18,7 @@ WITH (
 GO
 
 BULK INSERT Product_Features
-FROM 'C:\Users\Kuba0\Desktop\Projekty\OFML_Product\Cechy.csv'
+FROM 'C:\Users\Kuba0\Desktop\Projekty\OFML_Product\dane\Cechy.csv'
 WITH (
     FIRSTROW = 2,              
     FIELDTERMINATOR = ';',      
@@ -28,7 +28,7 @@ WITH (
 GO
 
 BULK INSERT Feature_options
-FROM 'C:\Users\Kuba0\Desktop\Projekty\OFML_Product\Opcje.csv'
+FROM 'C:\Users\Kuba0\Desktop\Projekty\OFML_Product\dane\Opcje.csv'
 WITH (
     FIRSTROW = 2,              
     FIELDTERMINATOR = ';',      
@@ -38,7 +38,7 @@ WITH (
 GO
 
 BULK INSERT Incompatibility_Rules
-FROM 'C:\Users\Kuba0\Desktop\Projekty\OFML_Product\Wykluczenia.csv'
+FROM 'C:\Users\Kuba0\Desktop\Projekty\OFML_Product\dane\Wykluczenia.csv'
 WITH (
     FIRSTROW = 2,            
     FIELDTERMINATOR = ';',   
