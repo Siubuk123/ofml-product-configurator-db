@@ -1,6 +1,6 @@
 # OFML Relational Product Configurator Engine
 
-Relacyjny model danych oraz silnik reguł konfiguracyjnych dla branży mebli biurowych, wzorowany na architekturze standardu **OFML (Office Furniture Modeling Language)** oraz ekosystemu **pCon**.
+Relacyjny model danych dla branży mebli biurowych, wzorowany na architekturze standardu **OFML (Office Furniture Modeling Language)** oraz ekosystemu **pCon**.
 
 ---
 
